@@ -1,4 +1,4 @@
-name: build-test-deploy
+name: job-run
 on: push
 jobs:
   my-job:
