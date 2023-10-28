@@ -5,3 +5,8 @@ jobs:
     uses: labsonline/actions-learning-pathway/.github/workflows/build-test-deploy.yml@main
     with:
       node-version: 18.x
+  output:
+    runs-on: self-hosted
+    steps:
+      - name: Adding markdown
+        run: echo '### Hello world! 🚀' >> $GITHUB_STEP_SUMMARY
