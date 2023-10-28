@@ -1,0 +1,7 @@
+name: build-test-deploy
+on: push
+jobs:
+  my-job:
+    uses: labsonline/actions-learning-pathway/.github/workflows/build-test-deploy.yml@main
+    with:
+      node-version: 18.x
